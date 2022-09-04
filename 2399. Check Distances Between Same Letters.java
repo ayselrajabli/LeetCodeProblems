@@ -1,4 +1,3 @@
-# 2399 task
 class Solution {
     public boolean checkDistances(String s, int[] distance) {
         for (int i=0; i<s.length();i++){
