@@ -1,5 +1,3 @@
-# 18 task
-
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
