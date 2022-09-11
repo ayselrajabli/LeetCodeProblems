@@ -1,0 +1,6 @@
+class Solution:
+    def mostFrequentEven(self, nums: List[int]) -> int:
+        for i,j in sorted(Counter(nums).items(), key=lambda x:(x[1],-x[0]), reverse=True): 
+            if i % 2==0: 
+                return i
+        return -1
