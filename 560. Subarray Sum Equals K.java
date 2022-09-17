@@ -1,5 +1,3 @@
-#560 task
-
 class Solution {
     public int subarraySum(int[] nums, int k) {
         int number=k,count=0;
